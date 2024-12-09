@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link href="bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<ul class="nav nav-tabs">
+  <li class="nav-item"> <a class="nav-link" href="Home.html">Home</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="Hand-carved.html">Hand-carved</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="Statues.html">Statues</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="Singing Bowl.html">Singing Bowl</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="Thangka.html">Thangka</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="Contact.html">Contact</a> </li>
+</ul>
+		<form>
+    <!-- form section for name input-->
+    <label for ="name"> Name:</label>
+    <input type = "text" id="name" required>
+    <!-- form section for email input-->
+     
+    <label for ="email"> Email:</label>
+    <input type="email" id="email" name="email" placeholder="Hello123@gmail.com">
+
+    <!-- form section for phone number input-->
+    <label for ="phone"> Phone:</label>
+    <input type = "tel" id="Phone" required placeholder="999-999-9999">
+
+    <!-- form section for Preferred contact input-->
+    <label for="select">Preferred Contact:</label>
+      <select name="contact" id="contact">
+         <option value="Email me">Email me</option>
+         <option value="Phone me between 1pm-4pm">Phone me between 1pm-4pm</option>
+         <option value="Phone me between 6pm-9pm">Phone me between 6pm-9pm</option>
+     </select>
+    
+    <label for="textarea">Question or Concern:</label> <!-- form section to write questions or concerns if any-->
+    <textarea id="textarea" name="textarea" rows="4" cols="50" input type="textarea">
+        Drop your question or concern here!
+     </textarea>
+
+    <!--This creats a submit button-->
+    <input type="submit">
+</form>  
+	
+<footer
+  <p>&copy; 2024 Nepalese Art</footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+.right{
+	float: right;
+}
+.firstleft{
+	float:left;
+}
+.firstright{
+	float:right;
+}
+.para{
+    float: left;
+    width: 60%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(203,176,176,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(203,176,176,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(203,176,176,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(203,176,176,1.00) 100%);
+     background-color: rgba(185,128,129,0.95);
+}
+.p1{
+    background-color: rgba(188,132,133,0.95);
+}
+
+
+.window{
+	float:right;
+	width:40%
+}
+.footer {
+    border-color: rgba(196,38,40,1.00);
+    background-color: rgba(74,99,158,1.00);
+    width: 100%;
+    color: rgba(241,14,18,1.00);
+}
+
+@media (min-width:900px){
+img {
+    width: 100%;
+    background-color: rgba(202,161,162,1.00);
+}
+.right .rounded.align-bottom {
+    width: 37%;
+	height: 20%;
+}
+
+}
+
+
+@media (max-width:780px){
+.right .rounded.align-bottom {
+    width: 65%;
+	height: 70%;
+}
+body img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+	
+
+
+}
