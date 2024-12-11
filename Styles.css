@@ -8,9 +8,26 @@
 .firstright{
 	float:right;
 }
+/* Add color and style to the website */
+main {
+    background-color: #e6f0f8; /*color ratio is 4.49:1 */
+    color: hsla(330, 100%, 60%, 0.658);
+    height:auto;
+    overflow:visible;
+    margin: 3px;
+    }
+    
+    body {
+    background-color: #e6f0f8; /*  new screen background color */
+    color: hsl(324, 29%, 47%);
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    }
+/*the para section of page Hand-carved*/
 .para{
     float: left;
-    width: 60%;
+    width: 56%;
+    padding: 2%;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -18,24 +35,56 @@
     background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(203,176,176,1.00) 100%);
     background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(203,176,176,1.00) 100%);
     background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(203,176,176,1.00) 100%);
-     background-color: rgba(185,128,129,0.95);
+    background-color: rgba(185,128,129,0.95);
 }
 .p1{
     background-color: rgba(188,132,133,0.95);
 }
+/* Heading fonts */
+h1, h2, h3, h4 {
+ font-family: 'Georgia', 'Times New Roman', serif;
+ color: rgb(147, 103, 73);
+ background-color:rgba(197, 197, 197, 0.674);
+ padding: 2px;
 
-
+}
+/*floats the picture to right*/
 .window{
 	float:right;
-	width:40%
+    width:40%;
 }
+/*properties for the footer*/
 .footer {
     border-color: rgba(196,38,40,1.00);
     background-color: rgba(74,99,158,1.00);
     width: 100%;
     color: rgba(241,14,18,1.00);
 }
+/*style for form used in contact page*/
+    input[type=text], [type=tel], [type=Email], [type=select], [type=textarea], select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid hsla(326, 25%, 48%, 0.514);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 
+}
+/* Style the submit button */
+input[type=submit] {
+    width: 100%;
+    background-color: hwb(64 15% 34% / 0.674);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+/*media query for larger screen*/
 @media (min-width:900px){
 img {
     width: 100%;
@@ -47,8 +96,7 @@ img {
 }
 
 }
-
-
+/*media query for smaller screen*/
 @media (max-width:780px){
 .right .rounded.align-bottom {
     width: 65%;
@@ -58,11 +106,5 @@ body img {
     width: 100%;
     height: 50%;
 }
-
-
-
-
-	
-
 
 }

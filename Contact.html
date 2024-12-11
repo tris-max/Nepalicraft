@@ -7,18 +7,21 @@
 <title>Contact</title>
 <link href="bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <link href="Styles.css" rel="stylesheet" type="text/css">
+<script src="script.js"></script> <!-- Linking the external JS file -->
 </head>
 
 <body>
-<ul class="nav nav-tabs">
-  <li class="nav-item"> <a class="nav-link" href="Home.html">Home</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="Hand-carved.html">Hand-carved</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="Statues.html">Statues</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="Singing Bowl.html">Singing Bowl</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="Thangka.html">Thangka</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="Contact.html">Contact</a> </li>
-</ul>
-		<form>
+  <ul class="nav nav-tabs">
+   <li class="nav-item"> <a class="nav-link" href="Home.html">Home</a> </li>
+   <li class="nav-item"> <a class="nav-link" href="Hand-carved.html">Hand-carved</a> </li>
+   <li class="nav-item"> <a class="nav-link" href="Statues.html">Statues</a> </li>
+   <li class="nav-item"> <a class="nav-link" href="Singing Bowl.html">Singing Bowl</a> </li>
+   <li class="nav-item"> <a class="nav-link" href="Thangka.html">Thangka</a> </li>
+   <li class="nav-item"> <a class="nav-link" href="Contact.html">Contact</a> </li>
+ </ul>
+<h1>Leave your thoughts and we will get back to you ASAP!</h1>
+<button onclick="showConfirm()">Click here to purchase</button>
+<form class ="inputdata">
     <!-- form section for name input-->
     <label for ="name"> Name:</label>
     <input type = "text" id="name" required>
@@ -46,9 +49,14 @@
 
     <!--This creats a submit button-->
     <input type="submit">
-</form>  
-	
-<footer
-  <p>&copy; 2024 Nepalese Art</footer>
+</form> 
+<p id="Date"></p>
+<script>
+    const d = new Date();
+    document.getElementById("Date").innerHTML = d;
+    </script> 
 </body>
+<footer class="footer">
+  &copy; 2024 Nepalese Art | <a href="Nepaliarts@gmail.com" > contact us </a> </p>
+ </footer>
 </html>
